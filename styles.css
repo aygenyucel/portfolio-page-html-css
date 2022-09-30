@@ -120,10 +120,19 @@ body {
   flex-direction: row;
   align-items: center;
 }
-
+.navbar-left {
+  cursor: pointer;
+}
 .navbar-menu {
   display: flex;
   flex-direction: row;
+}
+.fa-bars {
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: #f7b843;
 }
 
 .navbar-menu ul {
@@ -148,6 +157,7 @@ body {
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .navbar-menu ul li:hover {
