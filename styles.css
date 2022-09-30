@@ -1,3 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap");
+
 body {
   margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #efe2dd;
+}
+
+.personal-portfolio {
+  background-color: #181e30;
+  margin: 50px;
+  height: 200vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-section-img {
+  border-radius: 200px;
+}
+
+.main-section-img img {
+  background-color: #f7b843;
+  border-radius: 200px;
+  padding-top: 90px;
+  height: 300px;
+  width: 240px;
+  object-fit: contain;
+  box-shadow: inset 0px 0px 0px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-section-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+
+  justify-content: space-between;
+}
+
+.main-content-top {
+  color: #f7b843;
+  border-bottom: 1px solid #f7b843;
+  font-size: small;
+  padding: 5px;
+  width: 80%;
+}
+
+.main-content-head {
+  color: #f1f1f1;
+  font-size: 20px;
+  width: 80%;
+}
+
+.main-content-head h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.main-content-desc {
+  color: #f1f1f1;
+  width: 80%;
+  font-size: small;
+}
+
+.main-contact-me {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-me-button {
+  background-color: #f7b843;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: #181e30;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.contact-me-other {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me-other i {
+  margin-right: 30px;
+  color: #f1f1f1;
+  font-size: x-large;
+}
+
+.navbar {
+  margin-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.3px solid #5f5d5d;
+  color: #f1f1f1;
+  font-size: 0.7rem;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.navbar-menu ul li {
+  margin-right: 20px;
 }
